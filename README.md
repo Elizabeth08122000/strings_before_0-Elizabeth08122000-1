@@ -27,6 +27,6 @@ Next() и NextLine()
 
 ```java 
 String str = "0";
-        if (str.equals("0"))
-            System.out.println("YES");
+if (str.equals("0"))
+        System.out.println("YES");
 ```
