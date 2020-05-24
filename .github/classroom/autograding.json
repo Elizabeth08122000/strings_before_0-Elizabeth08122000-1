@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Edet\r\npo\r\n0",
+      "output": "Edet\r\npo",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Luchshe\r\ns\r\numnym\r\npoterjat',\r\nchem\r\n0",
+      "output": "Luchshe\r\ns\r\numnym\r\npoterjat',\r\nchem",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Ne\r\nstydno\r\nne\r\nznat',\r\nstydno\r\nne\r\nuchit'sja\r\n0",
+      "output": "Ne\r\nstydno\r\nne\r\nznat',\r\nstydno\r\nne\r\nuchit'sja",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Gladko\r\nbylo\r\nna\r\nbumage, da\r\nzabyli pro ovragi\r\n0",
+      "output": "Gladko\r\nbylo\r\nna\r\nbumage, da\r\nzabyli pro ovragi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Byloj slavoj boja ne vyigraesh\r\n0",
+      "output": "Byloj slavoj boja ne vyigraesh",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
